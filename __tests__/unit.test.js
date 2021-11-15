@@ -35,7 +35,7 @@ test('Test if it is a invalid email: google.com.', () => {
     expect(functions.isEmail('google.com')).toBe(false);
 });
 
-test('Testing if it is a invalid email: xiz064.', () => {
+test('Test if it is a invalid email: xiz064.', () => {
     expect(functions.isEmail('xiz064')).toBe(false);
 });
 
@@ -81,11 +81,11 @@ test('Test if it is a valid hex color FF5733', () => {
     expect(functions.isHexColor('FF5733')).toBe(true);
 });
 
-test('Testif it is a valid hex color FFF', () => {
+test('Test if it is a valid hex color FFF', () => {
     expect(functions.isHexColor('FFF')).toBe(true);
 });
 
-test('Test if it is a invalid hex color 000', () => {
+test('Test if it is a invalid hex color 2000', () => {
     expect(functions.isHexColor('2000')).toBe(false);
 });
 
